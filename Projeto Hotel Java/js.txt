@@ -1,0 +1,15 @@
+function botaoEnviar(){
+    var nome = document.getElementById('nomeId').value; 
+    var email = document.getElementById('emailId').value;
+
+  
+    document.writeln("A SOLICITA��O SER� ENVIADA PARA UMA EMPRESA<br><br>");
+    document.writeln("-----------------------------------<br>");
+    document.writeln("Nome: " + nome);
+    document.writeln("<br>E-mail: " + email);
+    document.writeln("<br>Coment�rio: " + comentario);
+    document.writeln("<br>-----------------------------------");
+
+
+    return true;
+}
