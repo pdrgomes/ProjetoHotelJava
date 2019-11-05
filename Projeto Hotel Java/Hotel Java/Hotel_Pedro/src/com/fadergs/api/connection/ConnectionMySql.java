@@ -25,7 +25,7 @@ public class ConnectionMySql {
 			String mydatabase ="hotelaria"; 
 			String url = "jdbc:mysql://" + serverName + "/" + mydatabase+"?useTimezone=true&serverTimezone=UTC";
 			String username = "root";       
-			String password = "1234";
+			String password = "root";
 			connection = DriverManager.getConnection(url, username, password);
 			System.out.println("2------");
  			if (connection != null) {
